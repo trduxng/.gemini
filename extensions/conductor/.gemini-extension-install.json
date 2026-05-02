@@ -1,0 +1,5 @@
+{
+  "source": "https://github.com/gemini-cli-extensions/conductor",
+  "type": "github-release",
+  "releaseTag": "conductor-v0.4.1"
+}

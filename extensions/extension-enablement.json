@@ -1,0 +1,17 @@
+{
+  "conductor": {
+    "overrides": [
+      "/C:/Users/Tran Dung/*"
+    ]
+  },
+  "oh-my-product": {
+    "overrides": [
+      "/C:/Users/Tran Dung/*"
+    ]
+  },
+  "caveman": {
+    "overrides": [
+      "/C:/Users/Tran Dung/*"
+    ]
+  }
+}
