@@ -29,6 +29,15 @@ activate_skill <tên_skill>
 /caveman full
 ```
 
+### 4. MCP Servers (Nâng cao)
+Dự án tích hợp các máy chủ MCP để tăng cường khả năng hiểu code:
+
+- **CodeGraphContext (cgc)**: Phân tích đồ thị phụ thuộc sâu.
+    - Cài đặt: `pip install codegraphcontext`
+    - Index project: `cgc index`
+- **memvid**: Bộ nhớ ngữ cảnh dài hạn và đa phương tiện.
+    - Cài đặt: `npx @google/memvid-mcp` (hoặc cấu hình trong `settings.json`)
+
 ## 🛡 Bảo mật & Quy tắc
 - Các file nhạy cảm (`.env`, keys, tokens) đã được đưa vào `.gitignore`.
 - Tuân thủ nghiêm ngặt các quy tắc trong `GEMINI.md`.
