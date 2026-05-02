@@ -1,0 +1,41 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Secrets & Credentials (CRITICAL)
+oauth_creds.json
+google_accounts.json
+mcp-oauth-tokens-v2.json
+installation_id
+.env
+.env.*
+! .env.example
+
+# Temporary & State files
+tmp/
+state.json
+projects.json
+trustedFolders.json
+extension_integrity.json
+
+# History & Backups
+.history/
+*.bak
+*.orig
+GEMINI - Copy*.md
+GEMINI_base_old.md
+GEMINI_test.md
+
+# Application folders that shouldn't be in git
+antigravity/
+history/
+.gemini/
+
+# Node modules (if any)
+node_modules/

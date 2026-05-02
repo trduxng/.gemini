@@ -1,0 +1,7 @@
+# Chặn các thư mục hệ thống Windows
+C:/Windows/
+C:/ProgramData/
+C:/Users/*/AppData/
+C:/Users/*/NTUSER.DAT
+C:/Users/*/ntuser.ini
+C:/Users/*/OneDrive/

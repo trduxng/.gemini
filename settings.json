@@ -1,0 +1,94 @@
+{
+  "ide": {
+    "hasSeenNudge": true,
+    "enabled": true
+  },
+  "general": {
+    "vimMode": false,
+    "preferredEditor": "antigravity",
+    "previewFeatures": true
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    },
+    "folderTrust": {
+      "enabled": true
+    }
+  },
+  "ui": {
+    "theme": "Dracula",
+    "showStatusInTitle": true,
+    "footer": {
+      "items": [
+        "workspace",
+        "git-branch",
+        "sandbox",
+        "model-name",
+        "quota",
+        "context-used",
+        "token-count",
+        "code-changes",
+        "memory-usage"
+      ]
+    }
+  },
+  "model": {
+    "name": ""
+  },
+  "output": {
+    "format": "json"
+  },
+  "agents": {
+    "overrides": {
+      "codebase_investigator": {
+        "modelConfig": {
+          "model": "gemini-3-flash-preview"
+        }
+      }
+    }
+  },
+  "context": {
+    "fileFiltering": {
+      "respectGeminiIgnore": true,
+      "respectGitIgnore": true
+    }
+  },
+  "tools": {
+    "sandboxAllowedPaths": []
+  },
+  "mcpServers": {
+    "CodeGraphContext": {
+      "command": "E:\\Python-3.10.rc2\\Scripts\\cgc.EXE",
+      "args": [
+        "mcp",
+        "start"
+      ],
+      "env": {
+        "DEFAULT_DATABASE": "falkordb",
+        "FALKORDB_PATH": "C:\\Users\\Tran Dung\\.codegraphcontext\\global\\db\\falkordb",
+        "FALKORDB_SOCKET_PATH": "C:\\Users\\Tran Dung\\.codegraphcontext\\global\\db\\falkordb.sock",
+        "INDEX_VARIABLES": "true",
+        "ALLOW_DB_DELETION": "false",
+        "DEBUG_LOGS": "false",
+        "DEBUG_LOG_PATH": "C:\\Users\\Tran Dung\\mcp_debug.log",
+        "ENABLE_APP_LOGS": "CRITICAL",
+        "LIBRARY_LOG_LEVEL": "WARNING",
+        "LOG_FILE_PATH": "C:\\Users\\Tran Dung\\.codegraphcontext\\logs\\cgc.log",
+        "MAX_FILE_SIZE_MB": "10",
+        "IGNORE_TEST_FILES": "false",
+        "IGNORE_HIDDEN_FILES": "true",
+        "ENABLE_AUTO_WATCH": "false",
+        "COMPLEXITY_THRESHOLD": "10",
+        "MAX_DEPTH": "unlimited",
+        "PARALLEL_WORKERS": "4",
+        "CACHE_ENABLED": "true",
+        "IGNORE_DIRS": "node_modules,venv,.venv,env,.env,dist,build,target,out,.git,.idea,.vscode,__pycache__",
+        "INDEX_SOURCE": "true",
+        "SCIP_INDEXER": "false",
+        "SCIP_LANGUAGES": "python,typescript,go,rust,java",
+        "SKIP_EXTERNAL_RESOLUTION": "false"
+      }
+    }
+  }
+}
