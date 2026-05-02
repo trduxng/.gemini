@@ -10,6 +10,7 @@ Dự án này chứa cấu hình cá nhân, các Agents chuyên biệt và hệ 
     - `conductor`: Quản lý các tracks và kế hoạch thực thi.
     - `caveman`: Chế độ giao tiếp siêu nén tiết kiệm token.
 - **`skills/`**: Thư viện hàng ngàn kỹ năng chuyên sâu (Web Dev, Mobile, Security, AI/ML, DevOps...).
+    - *Nguồn gốc:* [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)
 - **`GEMINI.md`**: File chỉ dẫn cốt lõi, quy định phong cách coding và quy tắc vận hành của Agent.
 
 ## 🛠 Cài đặt & Sử dụng
