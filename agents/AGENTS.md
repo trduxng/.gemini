@@ -8,10 +8,10 @@ description: >
 
 # 🧩 Danh mục Sub-Agents chuyên biệt
 
-@./code-reviewer.md
+<!-- @./code-reviewer.md
 @./docs-generator.md
 @./security-analyzer.md
-@./test-generator.md
+@./test-generator.md -->
 
 # 🛠 Quy tắc điều phối
 - **code-reviewer**: Kích hoạt khi có thay đổi code logic hoặc trước khi commit.
