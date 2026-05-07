@@ -1,16 +1,16 @@
-# 🗄️ Gemini CLI - Secondary Skills Index
+# 🗺️ Secondary Skills Map (High-Level)
 
-File này liệt kê các skill đã được di chuyển sang thư mục lưu trữ `skills_second` để tối ưu hóa tốc độ load. AI sử dụng danh sách này để định vị và kích hoạt skill khi cần thiết.
+AI sử dụng file này để xác định nhóm kỹ năng. Nếu cần tìm skill cụ thể, AI thực hiện tìm kiếm trực tiếp trên ổ đĩa.
 
-## 📂 Danh sách Skill (Alpha)
-- [Hệ thống sẽ tự động quét thư mục này]
+## 📂 Các Domain chính trong `skills_second/`
+- **Backend & Core:** .NET, C#, Dapper, EF Core, Java, Spring, Laravel, Django, FastAPI.
+- **AI & Automation:** Agent frameworks (CrewAI, LangGraph), LLM Tools, Web Scrapers (Apify), n8n.
+- **Frontend & Mobile:** Angular, React, Vue, Svelte, Flutter, React Native, SwiftUI.
+- **Bảo mật & Pentest:** Web hacking, Network audit, Malware analysis, Reverse engineering.
+- **Tools & SaaS:** Stripe, Twilio, Telegram, Slack, Google Workspace, Firebase.
 
-## 🛠 Cách kích hoạt
-Khi AI xác định cần một skill trong danh sách này, nó sẽ dùng lệnh:
-`activate_skill C:\Users\Tran Dung\.gemini\skills_second\<tên_skill>`
-
-## 📝 Nhóm Skill chính trong này:
-- **.NET & Backend:** csharp-pro, dotnet-backend, dotnet-architect, dotnet-backend-patterns.
-- **SaaS & API:** stripe-integration, telegram-bot-builder, whatsapp-cloud-api...
-- **AI & Data:** agent-orchestrator, crewai, langgraph, pandas-pro...
-- **Frameworks:** angular, react-native-patterns, nestjs-expert...
+## 🔍 Hướng dẫn AI Tìm kiếm (Discovery Logic)
+Khi cần một công cụ không có trong `skills/`:
+1. Sử dụng `grep_search` với pattern từ khóa trong `C:\Users\Tran Dung\.gemini\skills_second\*\SKILL.md`.
+2. Hoặc sử dụng `list_directory` trên `skills_second/` để quét tên thư mục.
+3. Kích hoạt bằng đường dẫn tuyệt đối.
