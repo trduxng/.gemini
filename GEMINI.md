@@ -116,7 +116,7 @@ Hệ thống sử dụng các MCP Server nặng (`memvid`, `codegraphcontext`). 
 ## 🚀 Hệ thống Agents & Skills (Lazy Loading & Auto-Cleanup)
 Hệ thống mặc định CHỈ nạp `core_essential/`. TUYỆT ĐỐI KHÔNG load toàn bộ skills để tránh treo hệ thống (ngốn token context).
 
-- **Script Tự động Nạp (Auto-Loading):** Phải đánh giá `<RequiredSkills>` trong bước Thinking. Nếu thiếu công cụ chuyên dụng, BẮT BUỘC phải gọi lệnh `activate_skill <tên_nhóm>` NHƯ LÀ BƯỚC ĐẦU TIÊN trong Action Plan. Nếu không tìm thấy skill trong thư mục mặc định, hãy kiểm tra tại `C:\Users\Tran Dung\.gemini\skills_second\` và kích hoạt bằng đường dẫn đầy đủ.
+- **Script Tự động Nạp (Auto-Loading):** Phải đánh giá `<RequiredSkills>` trong bước Thinking. Nếu thiếu công cụ chuyên dụng, BẮT BUỘC phải gọi lệnh `activate_skill <tên_nhóm>` NHƯ LÀ BƯỚC ĐẦU TIÊN trong Action Plan. Nếu không tìm thấy skill trong thư mục mặc định, hãy tham chiếu file `C:\Users\Tran Dung\.gemini\skill_second.md` để tìm đường dẫn tại `skills_second/` và kích hoạt bằng đường dẫn đầy đủ.
 - **Mapping Kích hoạt Domain:**
   - `cloud_devops_db/`: Docker, K8s, Database, AWS, Terraform.
   - `workflow_testing/`: Viết Unit test, Integration test, thiết lập CI/CD.
