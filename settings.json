@@ -34,7 +34,8 @@
     }
   },
   "model": {
-    "name": ""
+    "name": "",
+    "compressionThreshold": 0.5
   },
   "output": {
     "format": "json"
