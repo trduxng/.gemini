@@ -1,0 +1,445 @@
+﻿
+.gemini\skills_second\00-andruia-consultant\SKILL.md:4:description: "Arquitecto de Soluciones Principal y 
+Consultor Tecnológico de Andru.ia. Diagnostica y traza la hoja de ruta óptima para proyectos de IA en español."
+.gemini\skills_second\007\SKILL.md:3:description: Security audit, hardening, threat modeling (STRIDE/PASTA), 
+Red/Blue Team, OWASP checks, code review, incident response, and infrastructure security for any project.
+.gemini\skills_second\10-andruia-skill-smith\SKILL.md:4:description: "Ingeniero de Sistemas de Andru.ia. 
+Diseña, redacta y despliega nuevas habilidades (skills) dentro del repositorio siguiendo el Estándar de 
+Diamante."
+.gemini\skills_second\20-andruia-niche-intelligence\SKILL.md:4:description: "Estratega de Inteligencia de 
+Dominio de Andru.ia. Analiza el nicho específico de un proyecto para inyectar conocimientos, regulaciones y 
+estándares únicos del sector. Actívalo tras definir el nicho."
+.gemini\skills_second\3d-web-experience\SKILL.md:3:description: Expert in building 3D experiences for the web 
+- Three.js, React
+.gemini\skills_second\ab-test-setup\SKILL.md:3:description: "Structured guide for setting up A/B tests with 
+mandatory gates for hypothesis, metrics, and execution readiness."
+.gemini\skills_second\acceptance-orchestrator\SKILL.md:3:description: Use when a coding task should be driven 
+end-to-end from issue intake through implementation, review, deployment, and acceptance verification with 
+minimal human re-intervention.
+.gemini\skills_second\accessibility-compliance-accessibility-audit\SKILL.md:3:description: "You are an 
+accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology 
+compatibility. Conduct audits, identify barriers, and provide remediation guidance."
+.gemini\skills_second\active-directory-attacks\SKILL.md:3:description: "Provide comprehensive techniques for 
+attacking Microsoft Active Directory environments. Covers reconnaissance, credential harvesting, Kerberos 
+attacks, lateral movement, privilege escalation, and domain dominance for red team operations and penetration 
+testing."
+.gemini\skills_second\ad-creative\SKILL.md:3:description: "Create, iterate, and scale paid ad creative for 
+Google Ads, Meta, LinkedIn, TikTok, and similar platforms. Use when generating headlines, descriptions, 
+primary text, or large sets of ad variations for testing and performance optimization."
+.gemini\skills_second\address-github-comments\SKILL.md:3:description: "Use when you need to address review or 
+issue comments on an open GitHub Pull Request using the gh CLI."
+.gemini\skills_second\adhx\SKILL.md:3:description: "Fetch any X/Twitter post as clean LLM-friendly JSON. 
+Converts x.com, twitter.com, or adhx.com links into structured data with full article content, author info, 
+and engagement metrics. No scraping or browser required."
+.gemini\skills_second\advanced-evaluation\SKILL.md:3:description: This skill should be used when the user asks 
+to "implement LLM-as-judge", "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias", 
+or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality 
+assessment.
+.gemini\skills_second\advanced-evaluation\SKILL.md:80:Description: [What this criterion measures]
+.gemini\skills_second\advanced-evaluation\SKILL.md:349:criterionDescription: "How easy the code is to 
+understand and maintain"
+.gemini\skills_second\aegisops-ai\SKILL.md:3:description: "Autonomous DevSecOps & FinOps Guardrails. 
+Orchestrates Gemini 3 Flash to audit Linux Kernel patches, Terraform cost drifts, and K8s compliance."
+.gemini\skills_second\agent-evaluation\SKILL.md:3:description: Testing and benchmarking LLM agents including 
+behavioral testing,
+.gemini\skills_second\agent-evaluation\SKILL.md:213:    description: string;
+.gemini\skills_second\agent-evaluation\SKILL.md:232:            description: 'Contract for customer service 
+agent behavior',
+.gemini\skills_second\agent-framework-azure-ai-py\SKILL.md:3:description: "Build persistent agents on Azure AI 
+Foundry using the Microsoft Agent Framework Python SDK."
+.gemini\skills_second\agent-manager-skill\SKILL.md:3:description: "Manage multiple local CLI agents via tmux 
+sessions (start/stop/monitor/assign) with cron-friendly scheduling."
+.gemini\skills_second\agent-memory-mcp\SKILL.md:3:description: "A hybrid memory system that provides 
+persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions)."
+.gemini\skills_second\agent-memory-systems\SKILL.md:3:description: "Memory is the cornerstone of intelligent 
+agents. Without it, every
+.gemini\skills_second\agent-orchestration-improve-agent\SKILL.md:3:description: "Systematic improvement of 
+existing agents through performance analysis, prompt engineering, and continuous iteration."
+.gemini\skills_second\agent-orchestration-multi-agent-optimize\SKILL.md:3:description: "Optimize multi-agent 
+systems with coordinated profiling, workload distribution, and cost-aware orchestration. Use when improving 
+agent performance, throughput, or reliability."
+.gemini\skills_second\agent-orchestrator\SKILL.md:3:description: Meta-skill que orquestra todos os agentes do 
+ecossistema. Scan automatico de skills, match por capacidades, coordenacao de workflows multi-skill e registry 
+management.
+.gemini\skills_second\agent-orchestrator\SKILL.md:254:description: "Descricao com keywords de ativacao..."
+.gemini\skills_second\agent-tool-builder\SKILL.md:3:description: Tools are how AI agents interact with the 
+world. A well-designed
+.gemini\skills_second\agent-tool-builder\SKILL.md:368:      description: "Get current weather for a location. 
+Returns
+.gemini\skills_second\agent-tool-builder\SKILL.md:376:            description: "City and state, e.g. 'San 
+Francisco, CA'"
+.gemini\skills_second\agent-tool-builder\SKILL.md:507:  description: 'Get the current weather in a given 
+location',
+.gemini\skills_second\agentflow\SKILL.md:3:description: "Orchestrate autonomous AI development pipelines 
+through your Kanban board (Asana, GitHub Projects, Linear). Manages multi-worker Claude Code dispatch, 
+deterministic quality gates, adversarial review, per-task cost tracking, and crash-proof pipeline execution."
+.gemini\skills_second\agentfolio\SKILL.md:3:description: "Skill for discovering and researching autonomous AI 
+agents, tools, and ecosystems using the AgentFolio directory."
+.gemini\skills_second\agentic-actions-auditor\SKILL.md:3:description: >
+.gemini\skills_second\agentmail\SKILL.md:3:description: Email infrastructure for AI agents. Create accounts, 
+send/receive emails, manage webhooks, and check karma balance via the AgentMail API.
+.gemini\skills_second\agentphone\SKILL.md:4:description: Build AI phone agents with AgentPhone API. Use when 
+the user wants to make phone calls, send/receive SMS, manage phone numbers, create voice agents, set up 
+webhooks, or check usage — anything related to telephony, phone numbers, or voice AI.
+.gemini\skills_second\agentphone\SKILL.md:763:    description: "Get the user's calendar events for today.",
+.gemini\skills_second\agentphone\SKILL.md:768:    description: "Look up a customer's recent orders.",
+.gemini\skills_second\agents-md\SKILL.md:3:description: This skill should be used when the user asks to 
+"create AGENTS.md", "update AGENTS.md", "maintain agent docs", "set up CLAUDE.md", or needs to keep agent 
+instructions concise. Enforces research-backed best practices for minimal, high-signal agent documentation.
+.gemini\skills_second\agents-v2-py\SKILL.md:3:description: "Build container-based Foundry Agents with Azure AI 
+Projects SDK (ImageBasedHostedAgentDefinition). Use when creating hosted agents with custom container images 
+in Azure AI Foundry."
+.gemini\skills_second\airflow-dag-patterns\SKILL.md:3:description: "Build production Apache Airflow DAGs with 
+best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, 
+orchestrating workflows, or scheduling batch jobs."
+.gemini\skills_second\akf-trust-metadata\SKILL.md:3:description: "The AI native file format. EXIF for AI — 
+stamps every file with trust scores, source provenance, and compliance metadata. Embeds into 20+ formats 
+(DOCX, PDF, images, code). EU AI Act, SOX, HIPAA auditing."
+.gemini\skills_second\algolia-search\SKILL.md:3:description: Expert patterns for Algolia search 
+implementation, indexing
+.gemini\skills_second\algolia-search\SKILL.md:220:    description: p.description,
+.gemini\skills_second\algolia-search\SKILL.md:347:    description: 'Public search with rate limit',
+.gemini\skills_second\algorithmic-art\SKILL.md:3:description: "Algorithmic philosophies are computational 
+aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files 
+(interactive viewer), and .js files (generative algorithms)."
+.gemini\skills_second\alpha-vantage\SKILL.md:3:description: "Access 20+ years of global financial data: 
+equities, options, forex, crypto, commodities, economic indicators, and 50+ technical indicators."
+.gemini\skills_second\amazon-alexa\SKILL.md:3:description: "Integracao completa com Amazon Alexa para criar 
+skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar 
+com AWS ecosystem (Lambda, DynamoDB, Polly, Transcribe, Lex, Smart Home)."
+.gemini\skills_second\analytics-product\SKILL.md:3:description: "Analytics de produto — PostHog, Mixpanel, 
+eventos, funnels, cohorts, retencao, north star metric, OKRs e dashboards de produto."
+.gemini\skills_second\analytics-tracking\SKILL.md:3:description: Design, audit, and improve analytics tracking 
+systems that produce reliable, decision-ready data.
+.gemini\skills_second\analyze-project\SKILL.md:3:description: Forensic root cause analyzer for Antigravity 
+sessions. Classifies scope deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health.
+.gemini\skills_second\android-jetpack-compose-expert\SKILL.md:3:description: "Expert guidance for building 
+modern Android UIs with Jetpack Compose, covering state management, navigation, performance, and Material 
+Design 3."
+.gemini\skills_second\android_ui_verification\SKILL.md:3:description: Automated end-to-end UI testing and 
+verification on an Android Emulator using ADB.
+.gemini\skills_second\angular\SKILL.md:3:description: Modern Angular (v20+) expert with deep knowledge of 
+Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns.
+.gemini\skills_second\angular-best-practices\SKILL.md:3:description: "Angular performance optimization and 
+best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle 
+size, and rendering efficiency."
+.gemini\skills_second\angular-migration\SKILL.md:3:description: "Master AngularJS to Angular migration, 
+including hybrid apps, component conversion, dependency injection changes, and routing migration."
+.gemini\skills_second\angular-state-management\SKILL.md:3:description: "Master modern Angular state management 
+with Signals, NgRx, and RxJS. Use when setting up global state, managing component stores, choosing between 
+state solutions, or migrating from legacy patterns."
+.gemini\skills_second\angular-ui-patterns\SKILL.md:3:description: "Modern Angular UI patterns for loading 
+states, error handling, and data display. Use when building UI components, handling async data, or managing 
+component states."
+.gemini\skills_second\animejs-animation\SKILL.md:3:description: Advanced JavaScript animation library skill 
+for creating complex, high-performance web animations.
+.gemini\skills_second\anti-reversing-techniques\SKILL.md:3:description: "AUTHORIZED USE ONLY: This skill 
+contains dual-use security techniques. Before proceeding with any bypass or analysis: > 1."
+.gemini\skills_second\antigravity-design-expert\SKILL.md:3:description: Core UI/UX engineering skill for 
+building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.
+.gemini\skills_second\antigravity-skill-orchestrator\SKILL.md:3:description: "A meta-skill that understands 
+task requirements, dynamically selects appropriate skills, tracks successful skill combinations using 
+agent-memory-mcp, and prevents skill overuse for simple tasks."
+.gemini\skills_second\antigravity-workflows\SKILL.md:3:description: "Orchestrate multiple Antigravity skills 
+through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA."
+.gemini\skills_second\api-design-principles\SKILL.md:3:description: "Master REST and GraphQL API design 
+principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of 
+time."
+.gemini\skills_second\api-documentation\SKILL.md:3:description: "API documentation workflow for generating 
+OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation."
+.gemini\skills_second\api-documentation-generator\SKILL.md:3:description: "Generate comprehensive, 
+developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices"
+.gemini\skills_second\api-documenter\SKILL.md:3:description: Master API documentation with OpenAPI 3.1, 
+AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build 
+comprehensive developer portals.
+.gemini\skills_second\api-endpoint-builder\SKILL.md:3:description: "Builds production-ready REST API endpoints 
+with validation, error handling, authentication, and documentation. Follows best practices for security and 
+scalability."
+.gemini\skills_second\api-fuzzing-bug-bounty\SKILL.md:3:description: "Provide comprehensive techniques for 
+testing REST, SOAP, and GraphQL APIs during bug bounty hunting and penetration testing engagements. Covers 
+vulnerability discovery, authentication bypass, IDOR exploitation, and API-specific attack vectors."
+.gemini\skills_second\api-patterns\SKILL.md:3:description: "API design principles and decision-making. REST vs 
+GraphQL vs tRPC selection, response formats, versioning, pagination."
+.gemini\skills_second\api-security-best-practices\SKILL.md:3:description: "Implement secure API design 
+patterns including authentication, authorization, input validation, rate limiting, and protection against 
+common API vulnerabilities"
+.gemini\skills_second\api-security-testing\SKILL.md:3:description: "API security testing workflow for REST and 
+GraphQL APIs covering authentication, authorization, rate limiting, input validation, and security best 
+practices."
+.gemini\skills_second\api-testing-observability-api-mock\SKILL.md:3:description: "You are an API mocking 
+expert specializing in realistic mock services for development, testing, and demos. Design mocks that simulate 
+real API behavior and enable parallel development."
+.gemini\skills_second\apify-actor-development\SKILL.md:3:description: "Important: Before you begin, fill in 
+the generatedBy property in the meta section of .actor/actor.json. Replace it with the tool and model you're 
+currently using, such as \"Claude Code with Claude Sonnet 4.5\". This helps Apify monitor and improve 
+AGENTS.md for specific AI tools and models."
+.gemini\skills_second\apify-actorization\SKILL.md:3:description: "Actorization converts existing software into 
+reusable serverless applications compatible with the Apify platform. Actors are programs packaged as Docker 
+images that accept well-defined JSON input, perform an action, and optionally produce structured JSON output."
+.gemini\skills_second\apify-audience-analysis\SKILL.md:3:description: Understand audience demographics, 
+preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.
+.gemini\skills_second\apify-brand-reputation-monitoring\SKILL.md:3:description: "Scrape reviews, ratings, and 
+brand mentions from multiple platforms using Apify Actors."
+.gemini\skills_second\apify-competitor-intelligence\SKILL.md:3:description: Analyze competitor strategies, 
+content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, 
+and TikTok.
+.gemini\skills_second\apify-content-analytics\SKILL.md:3:description: Track engagement metrics, measure 
+campaign ROI, and analyze content performance across Instagram, Facebook, YouTube, and TikTok.
+.gemini\skills_second\apify-ecommerce\SKILL.md:3:description: "Extract product data, prices, reviews, and 
+seller information from any e-commerce platform using Apify's E-commerce Scraping Tool."
+.gemini\skills_second\apify-influencer-discovery\SKILL.md:3:description: Find and evaluate influencers for 
+brand partnerships, verify authenticity, and track collaboration performance across Instagram, Facebook, 
+YouTube, and TikTok.
+.gemini\skills_second\apify-lead-generation\SKILL.md:3:description: "Scrape leads from multiple platforms 
+using Apify Actors."
+.gemini\skills_second\apify-market-research\SKILL.md:3:description: Analyze market conditions, geographic 
+opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, 
+Booking.com, and TripAdvisor.
+.gemini\skills_second\apify-trend-analysis\SKILL.md:3:description: Discover and track emerging trends across 
+Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.
+.gemini\skills_second\apify-ultimate-scraper\SKILL.md:3:description: "AI-driven data extraction from 55+ 
+Actors across all major platforms. This skill automatically selects the best Actor for your task."
+.gemini\skills_second\app-builder\SKILL.md:3:description: "Main application building orchestrator. Creates 
+full-stack applications from natural language requests. Determines project type, selects tech stack, 
+coordinates agents."
+.gemini\skills_second\app-store-changelog\SKILL.md:3:description: Generate user-facing App Store release notes 
+from git history since the last tag.
+.gemini\skills_second\app-store-optimization\SKILL.md:3:description: "Complete App Store Optimization (ASO) 
+toolkit for researching, optimizing, and tracking mobile app performance on Apple App Store and Google Play 
+Store"
+.gemini\skills_second\app-store-optimization\SKILL.md:64:  - Description: 4,000 characters
+.gemini\skills_second\app-store-optimization\SKILL.md:69:  - Short Description: 80 characters
+.gemini\skills_second\app-store-optimization\SKILL.md:70:  - Full Description: 4,000 characters
+.gemini\skills_second\appdeploy\SKILL.md:3:description: "Deploy web apps with backend APIs, database, and file 
+storage. Use when the user asks to deploy or publish a website or web app and wants a public URL. Uses HTTP 
+API via curl."
+.gemini\skills_second\application-performance-performance-optimization\SKILL.md:3:description: "Optimize 
+end-to-end application performance with profiling, observability, and backend/frontend tuning. Use when 
+coordinating performance optimization across the stack."
+.gemini\skills_second\architect-review\SKILL.md:3:description: "Master software architect specializing in 
+modern architecture"
+.gemini\skills_second\architecture\SKILL.md:3:description: "Architectural decision-making framework. 
+Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or 
+analyzing system design."
+.gemini\skills_second\architecture-decision-records\SKILL.md:3:description: "Comprehensive patterns for 
+creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and 
+rationale behind significant technical decisions."
+.gemini\skills_second\arm-cortex-expert\SKILL.md:3:description: Senior embedded software engineer specializing 
+in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD).
+.gemini\skills_second\ask-questions-if-underspecified\SKILL.md:3:description: Clarify requirements before 
+implementing. Use when serious doubts arise.
+.gemini\skills_second\astro\SKILL.md:3:description: "Build content-focused websites with Astro — zero JS by 
+default, islands architecture, multi-framework components, and Markdown/MDX support."
+.gemini\skills_second\astro\SKILL.md:72:  description: string;
+.gemini\skills_second\astro\SKILL.md:256:    description: 'Latest posts',
+.gemini\skills_second\astropy\SKILL.md:3:description: "Astropy is the core Python package for astronomy, 
+providing essential functionality for astronomical research and data analysis."
+.gemini\skills_second\async-python-patterns\SKILL.md:3:description: "Comprehensive guidance for implementing 
+asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building 
+high-performance, non-blocking systems."
+.gemini\skills_second\attack-tree-construction\SKILL.md:3:description: "Build comprehensive attack trees to 
+visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security 
+risks to stakeholders."
+.gemini\skills_second\audio-transcriber\SKILL.md:3:description: "Transform audio recordings into professional 
+Markdown documentation with intelligent summaries using LLM integration"
+.gemini\skills_second\audit-context-building\SKILL.md:3:description: Enables ultra-granular, line-by-line code 
+analysis to build deep architectural context before vulnerability or bug finding.
+.gemini\skills_second\audit-skills\SKILL.md:3:description: "Expert security auditor for AI Skills and Bundles. 
+Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks, and 
+obfuscated payloads across Windows, macOS, Linux/Unix, and Mobile (Android/iOS)."
+.gemini\skills_second\auri-core\SKILL.md:3:description: "Auri: assistente de voz inteligente (Alexa + Claude 
+claude-opus-4-20250805). Visao do produto, persona Vitoria Neural, stack AWS, modelo 
+Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north star WAC e analise competitiva."
+.gemini\skills_second\auth-implementation-patterns\SKILL.md:3:description: "Build secure, scalable 
+authentication and authorization systems using industry-standard patterns and modern best practices."
+.gemini\skills_second\autonomous-agent-patterns\SKILL.md:3:description: "Design patterns for building 
+autonomous coding agents, inspired by [Cline](https://github.com/cline/cline) and [OpenAI 
+Codex](https://github.com/openai/codex)."
+.gemini\skills_second\autonomous-agent-patterns\SKILL.md:528:    async def find_and_click(self, description: 
+str) -> ToolResult:
+.gemini\skills_second\autonomous-agent-patterns\SKILL.md:705:    async def create_tool(self, description: str) 
+-> str:
+.gemini\skills_second\autonomous-agents\SKILL.md:3:description: Autonomous agents are AI systems that can 
+independently decompose
+.gemini\skills_second\avalonia-layout-zafiro\SKILL.md:3:description: "Guidelines for modern Avalonia UI layout 
+using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy."
+.gemini\skills_second\avalonia-viewmodels-zafiro\SKILL.md:3:description: "Optimal ViewModel and Wizard 
+creation patterns for Avalonia using Zafiro and ReactiveUI."
+.gemini\skills_second\avalonia-zafiro-development\SKILL.md:3:description: "Mandatory skills, conventions, and 
+behavioral rules for Avalonia UI development using the Zafiro toolkit."
+.gemini\skills_second\avoid-ai-writing\SKILL.md:3:description: "Audit and rewrite content to remove 21 
+categories of AI writing patterns with a 43-entry replacement table"
+.gemini\skills_second\awareness-stage-mapper\SKILL.md:3:description: "One sentence - what this skill does and 
+when to invoke it"
+.gemini\skills_second\awt-e2e-testing\SKILL.md:3:description: "AI-powered E2E web testing — eyes and hands for 
+AI coding tools. Declarative YAML scenarios, Playwright execution, visual matching (OpenCV + OCR), platform 
+auto-detection (Flutter/React/Vue), learning DB. Install: npx skills add ksgisang/awt-skill --skill awt -g"
+.gemini\skills_second\axiom\SKILL.md:3:description: "First-principles assumption auditor. Classifies each 
+hidden assumption (fact / convention / belief / interest-driven), ranks by fragility × impact, and rebuilds 
+conclusions from verified premises. Bilingual: auto-detects Chinese or English."
+.gemini\skills_second\azd-deployment\SKILL.md:3:description: "Deploy containerized frontend + backend 
+applications to Azure Container Apps with remote builds, managed identity, and idempotent infrastructure."
+.gemini\skills_second\backend-architect\SKILL.md:3:description: Expert backend architect specializing in 
+scalable API design, microservices architecture, and distributed systems.
+.gemini\skills_second\backend-dev-guidelines\SKILL.md:3:description: "You are a senior backend engineer 
+operating production-grade services under strict architectural and reliability constraints. Use when routes, 
+controllers, services, repositories, express middleware, or prisma database access."
+.gemini\skills_second\backend-development-feature-development\SKILL.md:3:description: "Orchestrate end-to-end 
+backend feature development from requirements to deployment. Use when coordinating multi-phase feature 
+delivery across teams and services."
+.gemini\skills_second\backend-development-feature-development\SKILL.md:183:Feature description: $ARGUMENTS
+.gemini\skills_second\backend-security-coder\SKILL.md:3:description: Expert in secure backend coding practices 
+specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security 
+implementations or security code reviews.
+.gemini\skills_second\backtesting-frameworks\SKILL.md:3:description: "Build robust, production-grade 
+backtesting systems that avoid common pitfalls and produce reliable strategy performance estimates."
+.gemini\skills_second\baseline-ui\SKILL.md:3:description: Validates animation durations, enforces typography 
+scale, checks component accessibility, and prevents layout anti-patterns in Tailwind CSS projects. Use when 
+building UI components, reviewing CSS utilities, styling React views, or enforcing design consistency.
+.gemini\skills_second\bash-defensive-patterns\SKILL.md:3:description: "Master defensive Bash programming 
+techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system 
+utilities requiring fault tolerance and safety."
+.gemini\skills_second\bash-scripting\SKILL.md:3:description: "Bash scripting workflow for creating 
+production-ready shell scripts with defensive patterns, error handling, and testing."
+.gemini\skills_second\bats-testing-patterns\SKILL.md:3:description: "Master Bash Automated Testing System 
+(Bats) for comprehensive shell script testing. Use when writing tests for shell scripts, CI/CD pipelines, or 
+requiring test-driven development of shell utilities."
+.gemini\skills_second\bazel-build-optimization\SKILL.md:3:description: "Optimize Bazel builds for large-scale 
+monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for 
+enterprise codebases."
+.gemini\skills_second\bdi-mental-states\SKILL.md:3:description: This skill should be used when the user asks 
+to "model agent mental states", "implement BDI architecture", "create belief-desire-intention models", 
+"transform RDF to beliefs", "build cognitive agent", or mentions BDI ontology, mental state modeling, rational 
+agency, or neuro-symbolic AI integration.
+.gemini\skills_second\bdistill-behavioral-xray\SKILL.md:3:description: "X-ray any AI model's behavioral 
+patterns — refusal boundaries, hallucination tendencies, reasoning style, formatting defaults. No API key 
+needed."
+.gemini\skills_second\bdistill-knowledge-extraction\SKILL.md:3:description: "Extract structured domain 
+knowledge from AI models in-session or from local open-source models via Ollama. No API key needed."
+.gemini\skills_second\beautiful-prose\SKILL.md:3:description: A hard-edged writing style contract for 
+timeless, forceful English prose without modern AI tics. Use when users ask for prose or rewrites that must be 
+clean, exact, concrete, and free of AI cadence, filler, or therapeutic tone.
+.gemini\skills_second\behavioral-modes\SKILL.md:3:description: "AI operational modes (brainstorm, implement, 
+debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type."
+.gemini\skills_second\bevy-ecs-expert\SKILL.md:3:description: "Master Bevy's Entity Component System (ECS) in 
+Rust, covering Systems, Queries, Resources, and parallel scheduling."
+.gemini\skills_second\binary-analysis-patterns\SKILL.md:3:description: "Comprehensive patterns and techniques 
+for analyzing compiled binaries, understanding assembly code, and reconstructing program logic."
+.gemini\skills_second\biopython\SKILL.md:3:description: "Biopython is a comprehensive set of freely available 
+Python tools for biological computation. It provides functionality for sequence manipulation, file I/O, 
+database access, structural bioinformatics, phylogenetics, and many other bioinformatics tasks."
+.gemini\skills_second\biopython\SKILL.md:311:print(f"Description: {record.description}")
+.gemini\skills_second\blockchain-developer\SKILL.md:3:description: Build production-ready Web3 applications, 
+smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise 
+blockchain integrations.
+.gemini\skills_second\blockrun\SKILL.md:3:description: "BlockRun works with Claude Code and Google 
+Antigravity."
+.gemini\skills_second\blog-writing-guide\SKILL.md:3:description: "This skill enforces Sentry's blog writing 
+standards across every post — whether you're helping an engineer write their first blog post or a marketer 
+draft a product announcement."
+.gemini\skills_second\blueprint\SKILL.md:3:description: "Turn a one-line objective into a step-by-step 
+construction plan any coding agent can execute cold. Each step has a self-contained context brief — a fresh 
+agent in a new session can pick up any step without reading prior steps."
+.gemini\skills_second\brainstorming\SKILL.md:3:description: "Use before creative or constructive work 
+(features, architecture, behavior). Transforms vague ideas into validated designs through disciplined 
+reasoning and collaboration."
+.gemini\skills_second\brand-guidelines\SKILL.md:3:description: Write copy following Sentry brand guidelines. 
+Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing 
+copy, or any user-facing content. Covers both Plain Speech (default) and Sentry Voice tones.
+.gemini\skills_second\brand-guidelines-anthropic\SKILL.md:3:description: "To access Anthropic's official brand 
+identity and style resources, use this skill."
+.gemini\skills_second\brand-guidelines-community\SKILL.md:3:description: "To access Anthropic's official brand 
+identity and style resources, use this skill."
+.gemini\skills_second\brand-perception-psychologist\SKILL.md:3:description: "One sentence - what this skill 
+does and when to invoke it"
+.gemini\skills_second\broken-authentication\SKILL.md:3:description: "Identify and exploit authentication and 
+session management vulnerabilities in web applications. Broken authentication consistently ranks in the OWASP 
+Top 10 and can lead to account takeover, identity theft, and unauthorized access to sensitive systems."
+.gemini\skills_second\browser-extension-builder\SKILL.md:3:description: Expert in building browser extensions 
+that solve real problems -
+.gemini\skills_second\build\SKILL.md:3:description: build
+.gemini\skills_second\build\SKILL.md:10:description: Feature development pipeline - research, plan, track, and 
+implement major features.
+.gemini\skills_second\build\SKILL.md:73:    description: "Begin deep research on a new feature idea"
+.gemini\skills_second\build\SKILL.md:75:    description: "Work on a feature already in progress"
+.gemini\skills_second\build\SKILL.md:77:    description: "See what step to do next for a feature"
+.gemini\skills_second\build\SKILL.md:92:    description: "Enter a short, kebab-case identifier for the feature"
+.gemini\skills_second\build\SKILL.md:105:    description: "Replace existing research with fresh exploration"
+.gemini\skills_second\build\SKILL.md:107:    description: "Add new research below existing content"
+.gemini\skills_second\build\SKILL.md:109:    description: "Keep existing research, suggest next step"
+.gemini\skills_second\build\SKILL.md:122:    description: "Provide a detailed description of the feature"
+.gemini\skills_second\build\SKILL.md:133:    description: "APIs, libraries, architecture patterns"
+.gemini\skills_second\build\SKILL.md:135:    description: "Interface design, user flows, interactions"
+.gemini\skills_second\build\SKILL.md:137:    description: "What data to store, schemas, privacy"
+.gemini\skills_second\build\SKILL.md:139:    description: "OS APIs, system integrations, permissions"
+.gemini\skills_second\build\SKILL.md:243:    description: "Create a fresh implementation plan"
+.gemini\skills_second\build\SKILL.md:245:    description: "Add new phases below existing content"
+.gemini\skills_second\build\SKILL.md:247:    description: "Keep existing plan, suggest next step"
+.gemini\skills_second\build\SKILL.md:275:    description: "Many focused phases, easier to track progress"
+.gemini\skills_second\build\SKILL.md:277:    description: "Balanced approach, moderate number of phases"
+.gemini\skills_second\build\SKILL.md:279:    description: "Fewer phases, each delivering significant 
+functionality"
+.gemini\skills_second\build\SKILL.md:384:    description: "Start fresh progress tracking"
+.gemini\skills_second\build\SKILL.md:386:    description: "Keep current progress, suggest next step"
+.gemini\skills_second\building-native-ui\SKILL.md:3:description: Complete guide for building beautiful apps 
+with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs.
+.gemini\skills_second\bulletmind\SKILL.md:3:description: "Convert input into clean, structured, hierarchical 
+bullet points for summarization, note-taking, and structured thinking."
+.gemini\skills_second\bullmq-specialist\SKILL.md:3:description: BullMQ expert for Redis-backed job queues, 
+background processing,
+.gemini\skills_second\bun-development\SKILL.md:3:description: "Fast, modern JavaScript/TypeScript development 
+with the Bun runtime, inspired by [oven-sh/bun](https://github.com/oven-sh/bun)."
+.gemini\skills_second\burp-suite-testing\SKILL.md:3:description: "Execute comprehensive web application 
+security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, 
+request analysis and replay, automated vulnerability scanning, and manual testing workflows."
+.gemini\skills_second\burpsuite-project-parser\SKILL.md:3:description: Searches and explores Burp Suite 
+project files (.burp) from the command line. Use when searching response headers or bodies with regex 
+patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP 
+traffic captured in a Burp project.
+.gemini\skills_second\business-analyst\SKILL.md:3:description: Master modern business analysis with AI-powered 
+analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive 
+models, and strategic recommendations.
+.gemini\skills_second\busybox-on-windows\SKILL.md:3:description: "How to use a Win32 build of BusyBox to run 
+many of the standard UNIX command line tools on Windows."
+.gemini\skills_second\c-pro\SKILL.md:3:description: "Write efficient C code with proper memory management, 
+pointer"
+.gemini\skills_second\canvas-design\SKILL.md:3:description: "These are instructions for creating design 
+philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and 
+.png files."
+.gemini\skills_second\carrier-relationship-management\SKILL.md:3:description: Codified expertise for managing 
+carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and 
+maintaining strategic carrier relationships.
+.gemini\skills_second\cc-skill-backend-patterns\SKILL.md:3:description: "Backend architecture patterns, API 
+design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes."
+.gemini\skills_second\cc-skill-clickhouse-io\SKILL.md:3:description: "ClickHouse database patterns, query 
+optimization, analytics, and data engineering best practices for high-performance analytical workloads."
+.gemini\skills_second\cc-skill-coding-standards\SKILL.md:3:description: "Universal coding standards, best 
+practices, and patterns for TypeScript, JavaScript, React, and Node.js development."
+.gemini\skills_second\cc-skill-coding-standards\SKILL.md:284:  description: z.string().min(1).max(2000),
+.gemini\skills_second\cc-skill-continuous-learning\SKILL.md:3:description: "Development skill from 
+everything-claude-code"
+.gemini\skills_second\cc-skill-frontend-patterns\SKILL.md:3:description: "Frontend development patterns for 
+React, Next.js, state management, performance optimization, and UI best practices."
+.gemini\skills_second\cc-skill-frontend-patterns\SKILL.md:385:  description: string
+.gemini\skills_second\cc-skill-frontend-patterns\SKILL.md:398:    description: '',
+.gemini\skills_second\cc-skill-project-guidelines-example\SKILL.md:3:description: "Project Guidelines Skill 
+(Example)"
+.gemini\skills_second\cc-skill-security-review\SKILL.md:3:description: "This skill ensures all code follows 
+security best practices and identifies potential vulnerabilities. Use when implementing authentication or 
+authorization, handling user input or file uploads, or creating new API endpoints."
+.gemini\skills_second\cc-skill-strategic-compact\SKILL.md:3:description: "Development skill from 
+everything-claude-code"
+.gemini\skills_second\cdk-patterns\SKILL.md:3:description: "Common AWS CDK patterns and constructs for 
+building cloud infrastructure with TypeScript, Python, or Java. Use when designing reusable CDK stacks and L3 
+constructs."
+.gemini\skills_second\chat-widget\SKILL.md:3:description: Build a real-time support chat system with a 
+floating widget for users and an admin dashboard for support staff. Use when the user wants live chat, 
+customer support chat, real-time messaging, or in-app support.
+.gemini\skills_second\chrome-extension-developer\SKILL.md:3:description: "Expert in building Chrome Extensions 
+using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context 
+communication."
+.gemini\skills_second\churn-prevention\SKILL.md:3:description: "Reduce voluntary and involuntary churn with 
+cancel flows, save offers, dunning, win-back tactics, and retention strategy. Use when users are cancelling, 
+failed payments are rising, or subscription retention needs improvement."
+
+

@@ -78,6 +78,11 @@ Mỗi thay đổi code **BẮT BUỘC** đi kèm kế hoạch kiểm thử tươ
 Để tiết kiệm chi phí và duy trì tốc độ phản hồi nhanh, bạn **BẮT BUỘC** tuân thủ:
 - **Surgical Reading:** Tuyệt đối không đọc toàn bộ file lớn. Luôn sử dụng `start_line` và `end_line` để chỉ đọc đúng vùng logic cần thiết.
 - **Grep-First Discovery:** Luôn sử dụng `grep_search` để định vị "kim đáy bể" trước khi dùng `read_file`. Tránh quét thư mục diện rộng (`ls -R`).
+- **Search-as-last-resort:** Chỉ sử dụng `google_web_search` khi:
+    1. Thông tin trong codebase hiện tại không đủ giải quyết vấn đề.
+    2. Gặp lỗi lạ mà dữ liệu huấn luyện không có.
+    3. Cần tra cứu chữ ký hàm (API signature) của các thư viện vừa cập nhật phiên bản mới.
+    *Lưu ý:* Khi lấy thông tin từ web, **BẮT BUỘC** phải đánh dấu rõ ràng (ví dụ: `[Nguồn: Web Search]` hoặc kèm URL) để phân biệt với dữ liệu nội bộ.
 - **High-Density References:** Trong hội thoại, ưu tiên dùng `file:line` hoặc tên symbol thay vì trích dẫn lại các khối code lớn đã có trong context.
 - **Delta-Only Reporting:** Chỉ mô tả phần thay đổi (diff) và lý do kỹ thuật. Không tóm tắt lại những phần code không bị tác động.
 - **Context Pruning:** Bỏ qua các file rác, build artifacts, và thư mục không liên quan bằng `.geminiignore`. Nếu một skill/agent không còn dùng tới, hãy de-activate để giải phóng bộ nhớ.
@@ -152,13 +157,11 @@ Hệ thống mặc định CHỈ nạp `core_essential/`. TUYỆT ĐỐI KHÔNG 
 4. **Handoff & Fallback:** Yêu cầu Agent con trả về `[STATUS] -> [CHANGES] -> [TEST_COMMAND]`. **Nếu Agent con báo lỗi (Fail) quá 2 lần, Orchestrator phải dừng luồng và báo cáo trực tiếp cho người dùng**, không cố gắng thử lại vô tận.
 
 ## 🧭 Chiến lược thực thi mặc định
-1. Xác định loại task và mức rủi ro.
-2. Tìm nhanh đúng file/đúng vùng liên quan.
-3. Đọc tối thiểu đủ dùng.
-4. Chọn tool/skill tối thiểu cần thiết.
-5. Thực hiện sửa đổi nhỏ, chính xác.
-6. Validate tương ứng với mức rủi ro.
-7. Báo cáo ngắn: đã đổi gì, vì sao, kiểm thử gì, bước tiếp theo nếu có.
+1. **Xác định quy mô & Tốc độ:** 
+   - **Fast-Track (Thay đổi nhỏ < 2 file):** Thực hiện trực tiếp theo luồng Plan -> Act -> Validate. Bỏ qua OpenSpec/Search để ưu tiên tốc độ.
+   - **Standard (Tính năng trung bình):** Sử dụng `/opsx:ff` để tạo nhanh tài liệu thiết kế.
+   - **Deep-Work (Tính năng lớn/Kiến trúc):** **BẮT BUỘC** dùng quy trình đầy đủ của **OpenSpec** (`/opsx:explore` -> `/opsx:propose`).
+2. **Thực thi:** Tìm đúng vùng -> Đọc tối thiểu -> Sửa nhỏ -> Validate -> Báo cáo ngắn.
 
 ## ❌ Những gì cần tránh ở chế độ Balanced
 - Quét toàn bộ project chỉ để trả lời câu hỏi nhỏ.
@@ -171,7 +174,7 @@ Hệ thống mặc định CHỈ nạp `core_essential/`. TUYỆT ĐỐI KHÔNG 
 - Bỏ qua file `.mcpignore` hoặc `.geminiignore`. Tuyệt đối không để các tool quét vào thư mục build, node_modules, hoặc thư mục chứa dataset.
 
 ## Lưu ý
-- Môi trường đang thực hiện là Windows 11 pro
+- Môi trường đang thực hiện là Windows 11 pro, không sử dụng && mà sử dụng ;
 
 ***
 *Ghi chú: Mọi hướng dẫn trong file này có giá trị cao nhất và ghi đè các thiết lập mặc định.*
