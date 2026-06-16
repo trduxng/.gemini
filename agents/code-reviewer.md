@@ -1,5 +1,5 @@
 ---
-name: code-reviewer
+name: code-expert-reviewer
 description: >
   Use this agent when the user has written code and needs quality review, security analysis, or best practices validation. Examples:
 
@@ -9,15 +9,15 @@ description: >
   assistant: "Great! Let me review the implementation."
   <commentary>
   Code written for payment processing (security-critical). Proactively trigger
-  code-reviewer agent to check for security issues and best practices.
+  code-expert-reviewer agent to check for security issues and best practices.
   </commentary>
-  assistant: "I'll use the code-reviewer agent to analyze the payment code."
+  assistant: "I'll use the code-expert-reviewer agent to analyze the payment code."
   </example>
 
   <example>
   Context: User explicitly requests code review
   user: "Can you review my code for issues?"
-  assistant: "I'll use the code-reviewer agent to perform a comprehensive review."
+  assistant: "I'll use the code-expert-reviewer agent to perform a comprehensive review."
   <commentary>
   Explicit code review request triggers the agent.
   </commentary>
@@ -30,7 +30,7 @@ description: >
   <commentary>
   Before commit, proactively review code quality.
   </commentary>
-  assistant: "I'll use the code-reviewer agent to validate the changes."
+  assistant: "I'll use the code-expert-reviewer agent to validate the changes."
   </example>
 model: inherit
 tools: ["read_file", "grep_search", "glob"]

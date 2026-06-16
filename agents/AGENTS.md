@@ -14,7 +14,7 @@ description: >
 @./test-generator.md -->
 
 # 🛠 Quy tắc điều phối
-- **code-reviewer**: Kích hoạt khi có thay đổi code logic hoặc trước khi commit.
+- **code-expert-reviewer**: Kích hoạt khi có thay đổi code logic hoặc trước khi commit.
 - **docs-generator**: Kích hoạt khi có API mới, thay đổi cấu trúc folder hoặc yêu cầu viết hướng dẫn.
 - **security-analyzer**: Kích hoạt khi làm việc với Auth, Database, Payments hoặc dữ liệu nhạy cảm.
 - **test-generator**: Kích hoạt khi thiếu unit test cho các hàm/logic quan trọng.
