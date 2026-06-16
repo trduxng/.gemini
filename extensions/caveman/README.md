@@ -39,7 +39,7 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill/plugin (al
 </td>
 <td width="50%">
 
-### 🪨 Caveman Claude (19 tokens)
+### <img src="docs/assets/dancing-rock.svg" width="20" height="20" alt="rock"/> Caveman Claude (19 tokens)
 
 > "New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`."
 
@@ -55,7 +55,7 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill/plugin (al
 </td>
 <td>
 
-### 🪨 Caveman Claude
+### <img src="docs/assets/dancing-rock.svg" width="20" height="20" alt="rock"/> Caveman Claude
 
 > "Bug in auth middleware. Token expiry check use `<` not `<=`. Fix:"
 
@@ -75,6 +75,26 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill/plugin (al
 ```
 
 Pick your level of grunt — `lite` (drop filler), `full` (default caveman), `ultra` (telegraphic), or `wenyan` (classical Chinese, even shorter). One command switch. Cost go down forever.
+
+**Speak your tongue.** Caveman keep your language. You write Portuguese, caveman grunt Portuguese. Spanish, French, same. Compress the *style*, not the language. Code, command, error string stay exact.
+
+> "Novo ref de objeto cada render. Prop inline = novo ref = re-render. Envolva com `useMemo`."
+
+<table align="center">
+<tr><td>
+
+### <img src="docs/assets/dancing-rock.svg" width="22" height="22" alt="rock"/> Like this trick? Now get whole agent — **caveman-code**
+
+This skill shrink what agent **say**. **[caveman-code](https://github.com/JuliusBrussee/caveman-code)** shrink **everything** — full terminal coding agent, caveman top to bottom. **~2× fewer tokens than Codex** on identical tasks. 20+ providers · plan mode · autopilot goal loop · MIT.
+
+```bash
+npm install -g @juliusbrussee/caveman-code
+```
+
+[**▶ Try caveman-code now →**](https://github.com/JuliusBrussee/caveman-code) — *why use many token when whole agent save*
+
+</td></tr>
+</table>
 
 ## Install
 
@@ -159,7 +179,7 @@ A March 2026 paper ["Brevity Constraints Reverse Performance Hierarchies in Lang
 
 Maintainer detail (hook architecture, file ownership, CI sync) live in [CLAUDE.md](./CLAUDE.md).
 
-## Lobster, Meet Rock 🦞🪨
+## Lobster, Meet Rock 🦞 <img src="docs/assets/dancing-rock.svg" width="22" height="22" alt="rock"/>
 
 [**OpenClaw**](https://openclaw.ai) the self-host gateway. One box, many agent inside (Claude Code, Codex, Pi, OpenCode), wired to your Slack / Discord / iMessage / Telegram / whatever. Tagline: *"The lobster way."* Lobster strong. Lobster smart. Lobster also talk a lot.
 
@@ -191,15 +211,17 @@ Lobster claw still sharp. Lobster mouth now small. Brain still big.
 
 ## Caveman Ecosystem
 
-Three tools. One philosophy: **agent do more with less**.
+Five tools. One philosophy: **agent do more with less**.
 
 | Repo | What |
 |------|------|
 | [**caveman**](https://github.com/JuliusBrussee/caveman) *(you here)* | Output compression — *why use many token when few do trick* |
+| [**caveman-code**](https://github.com/JuliusBrussee/caveman-code) | Whole terminal coding agent — *why use many token when whole agent can save* |
 | [**cavemem**](https://github.com/JuliusBrussee/cavemem) | Cross-agent memory — *why agent forget when agent can remember* |
 | [**cavekit**](https://github.com/JuliusBrussee/cavekit) | Spec-driven build loop — *why agent guess when agent can know* |
+| [**cavegemma**](https://github.com/JuliusBrussee/finetune-caveman) | Gemma 4 31B fine-tuned on caveman pairs — *why prompt every turn when weight remember* |
 
-Compose: cavekit drive build, caveman compress what agent *say*, cavemem compress what agent *remember*. One rock. Two rock. Three rock. That it.
+Compose: cavekit drive build, caveman compress what agent *say*, cavemem compress what agent *remember*, cavegemma bake compression into weight, caveman-code ship it all as one terminal agent. One rock. Two rock. Three rock. Four rock. Five rock. That it.
 
 ## Links
 
@@ -218,6 +240,25 @@ Caveman save you token, save you money. Star cost zero. Fair trade. ⭐
 ## Also by Julius Brussee
 
 - **[Revu](https://github.com/JuliusBrussee/revu-swift)** — local-first macOS study app with FSRS spaced repetition. [revu.cards](https://revu.cards)
+
+## Sponsors
+
+caveman free forever. Sponsor keep rock sharp.
+
+<p align="center">
+  <a href="https://www.atlascloud.ai">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="docs/assets/atlas-cloud-dark.svg">
+      <img src="docs/assets/atlas-cloud.svg" alt="Atlas Cloud" height="28">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.atlascloud.ai"><strong>Atlas Cloud</strong></a> — full-modal AI inference platform, one API.
+</p>
+
+Want rock here too? [Sponsor caveman](https://github.com/sponsors/JuliusBrussee).
 
 ## License
 

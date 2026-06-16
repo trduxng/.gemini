@@ -6,7 +6,10 @@
   "general": {
     "vimMode": false,
     "preferredEditor": "antigravity",
-    "previewFeatures": true
+    "previewFeatures": true,
+    "plan": {
+      "directory": "plan"
+    }
   },
   "security": {
     "auth": {
@@ -53,7 +56,8 @@
     "fileFiltering": {
       "respectGeminiIgnore": true,
       "respectGitIgnore": true
-    }
+    },
+    "loadMemoryFromIncludeDirectories": true
   },
   "tools": {
     "sandboxAllowedPaths": []
@@ -89,7 +93,12 @@
         "SCIP_INDEXER": "false",
         "SCIP_LANGUAGES": "python,typescript,go,rust,java",
         "SKIP_EXTERNAL_RESOLUTION": "false"
-      }
+      },
+      "timeout": 60000,
+      "trust": false
     }
+  },
+  "experimental": {
+    "autoMemory": true
   }
 }
